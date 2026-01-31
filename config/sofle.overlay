@@ -1,4 +1,4 @@
-#if DT_NODE_EXISTS(DT_NODELABEL(nice_view_spi))
+#if defined(DT_NODELABEL_nice_view_spi)
 &nice_view_spi {
     cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
 };
