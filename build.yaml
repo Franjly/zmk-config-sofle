@@ -1,9 +1,9 @@
 include:
   # Sofle v2.0w
   - board: nice_nano
-    shield: sofle_left nice_view_adapter nice_view_gem
+    shield: sofle_left custom_nice_view_adapter nice_view_gem
   - board: nice_nano
-    shield: sofle_right nice_view_adapter nice_view_gem
+    shield: sofle_right custom_nice_view_adapter nice_view_gem
 
   # Settings reset
   - board: nice_nano
