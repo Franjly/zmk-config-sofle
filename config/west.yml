@@ -11,16 +11,16 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     # nice-view-gem
     - name: nice-view-gem
       remote: m165437
-      revision: main
+      revision: v0.3.0
     # Prospector Scanner
     - name: prospector-zmk-module
       remote: prospector
-      revision: feature/v2.2.0
+      revision: v2.0.0
       path: modules/prospector-zmk-module
   self:
     path: config
