@@ -5,6 +5,9 @@ manifest:
     # nice-view-gem
     - name: m165437
       url-base: https://github.com/M165437
+    # Prospector - Carrefinho
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,5 +17,9 @@ manifest:
     - name: nice-view-gem
       remote: m165437
       revision: main
+    # Prospector - Carrefinho
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: core/zephyr-4-1
   self:
     path: config
